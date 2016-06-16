@@ -388,7 +388,7 @@ var Suggestion = React.createClass({
             jsonp: 'cb',
             dataType: 'jsonp',
             data: {wd: value},
-            processDate: true,
+            processData: true,
             context:this,
             success: function (result) {
                 var data = result.s;
